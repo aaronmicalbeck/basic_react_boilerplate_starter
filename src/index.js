@@ -1,11 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from "./App";
-import {BrowserRouter} from "react-router-dom";
+import * as serviceWorker from './serviceWorker';
+import './assets/scss/base.scss';
+import '@quasar/extras/ionicons-v4/ionicons-v4.css';
+
+
 
 ReactDOM.render(
-  <BrowserRouter>
+  <React.StrictMode>
     <App />
-  </BrowserRouter>,
+    </React.StrictMode>,
   document.getElementById('root')
 );
+
+serviceWorker.unregister();

@@ -31,7 +31,7 @@ export default function Navigation({ user }) {
     return (
         <nav className="site-navigation">
 
-            <span className="menu-title">Responsive Nav Menu</span>
+            <span className="menu-title">Personal Blog</span>
             <div className={`menu-content-container ${menuActive && 'active'}`}>
             
                 <ul>

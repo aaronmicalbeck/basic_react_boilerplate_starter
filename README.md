@@ -1,2 +1,2 @@
-# Personal Blog
+# Basic React Boilerplate Starter
 
